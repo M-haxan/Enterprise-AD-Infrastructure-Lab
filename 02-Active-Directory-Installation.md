@@ -18,7 +18,7 @@ Before installing AD DS, proper network routing is required so the Client can lo
 4. Completed the installation wizard.
 
 > 📸 **Screenshot Placeholder:** *(Add an image showing Server Manager with AD DS role installed)*
-> `![AD DS Role Installed](Screenshots/adds_installed.png)`
+> ![AD DS Role Installed](Screenshots/adds_installed.png)
 
 ## 3. Promoting to Domain Controller
 1. Clicked the notification flag in Server Manager and selected **"Promote this server to a domain controller"**.
@@ -27,7 +27,7 @@ Before installing AD DS, proper network routing is required so the Client can lo
 4. Left the NetBIOS domain name as default (`HASSAN_DEV`) and completed the promotion process, which automatically restarted the server.
 
 > 📸 **Screenshot Placeholder:** *(Add an image of the Deployment Configuration screen showing the domain name)*
-> `![Domain Promotion](Screenshots/domain_promotion.png)`
+> ![Domain Promotion](Screenshots/domain_promotion.png)
 
 ## 4. DNS Configuration (Forward & Reverse Lookup Zones)
 To ensure proper name resolution across the network:
@@ -37,7 +37,7 @@ To ensure proper name resolution across the network:
 4. Updated the Pointer (PTR) records for both machines.
 
 > 📸 **Screenshot Placeholder:** *(Add the screenshot you saved earlier showing the DNS Forward/Reverse zones)*
-> `![DNS Zones Configuration](Screenshots/dns_zones.png)`
+> ![DNS Zones Configuration](Screenshots/dns_zones.png)
 
 ## 5. Joining the Client PC to the Domain
 1. Logged into the Client PC.
@@ -47,7 +47,7 @@ To ensure proper name resolution across the network:
 5. Restarted the Client PC to apply changes.
 
 > 📸 **Screenshot Placeholder:** *(Add an image showing the "Welcome to the hassan_dev.local domain" success message)*
-> `![Domain Join Success](Screenshots/domain_join.png)`
+> ![Domain Join Success](Screenshots/domain_join.png)
 
 ## 6. Verification
 Ran `nslookup` on both Server and Client Command Prompts to verify that both Forward (Name to IP) and Reverse (IP to Name) DNS resolutions were functioning correctly.
