@@ -16,7 +16,7 @@ We delegated password reset authorities to the HR Manager (e.g., Zainab Tariq) s
 5. Completed the wizard to apply the granular permissions.
 
 > 📸 **Screenshot Placeholder:** *(Add an image of the Delegation of Control Wizard showing the selected tasks)*
-> ![Delegation Wizard](Screenshots/delegation_wizard.png)
+> ![Delegation Wizard](Screenshots/delegation_wizard.jpeg)
 
 ## 3. Verification & Security Check
 To verify the implementation:
